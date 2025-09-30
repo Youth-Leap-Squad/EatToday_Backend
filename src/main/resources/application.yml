@@ -1,5 +1,5 @@
 server:
-  port: 0
+  port: 17284
 
 spring:
   security:
@@ -8,10 +8,10 @@ spring:
       password: 1234
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/mydb
 
-    username: root
-    password: mariadb
+    url: jdbc:mariadb://localhost:3306/yls
+    username: swcamp
+    password: swcamp
   jpa:
     generate-ddl: false
     show-sql: true

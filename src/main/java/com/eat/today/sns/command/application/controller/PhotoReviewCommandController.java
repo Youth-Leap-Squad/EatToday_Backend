@@ -1,4 +1,4 @@
-package com.eat.today.sns.command.application.controller.photoReview;
+package com.eat.today.sns.command.application.controller;
 
 
 import com.eat.today.sns.command.application.dto.photoReviewDTO.CreateRequest;

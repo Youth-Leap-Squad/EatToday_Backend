@@ -1,7 +1,7 @@
 package com.eat.today.sns.command.domain.service;
 
-import com.eat.today.sns.command.application.entity.follow.FollowEntity;
-import com.eat.today.sns.command.domain.repository.follow.FollowRepository;
+import com.eat.today.sns.command.application.entity.FollowEntity;
+import com.eat.today.sns.command.domain.repository.FollowRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

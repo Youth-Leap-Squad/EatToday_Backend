@@ -1,13 +1,12 @@
-package com.eat.today.sns.command.domain.repository.follow;
+package com.eat.today.sns.command.domain.repository;
 
-import com.eat.today.sns.command.application.entity.follow.FollowEntity;
-import com.eat.today.sns.command.application.entity.follow.FollowId;
+import com.eat.today.sns.command.application.entity.FollowEntity;
+import com.eat.today.sns.command.application.entity.FollowId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

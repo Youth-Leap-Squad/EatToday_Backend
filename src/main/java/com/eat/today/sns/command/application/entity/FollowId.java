@@ -1,4 +1,4 @@
-package com.eat.today.sns.command.application.entity.follow;
+package com.eat.today.sns.command.application.entity;
 
 import lombok.*;
 import java.io.Serializable;

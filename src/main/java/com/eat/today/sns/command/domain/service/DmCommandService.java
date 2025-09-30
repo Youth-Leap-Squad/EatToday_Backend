@@ -1,7 +1,7 @@
 package com.eat.today.sns.command.domain.service;
 
-import com.eat.today.sns.command.application.entity.dm.DmEntity;
-import com.eat.today.sns.command.domain.repository.dm.DmRepository;
+import com.eat.today.sns.command.application.entity.DmEntity;
+import com.eat.today.sns.command.domain.repository.DmRepository;
 import com.eat.today.sns.query.dto.dm.DmUpdateDTO;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
-public class DmService {
+public class DmCommandService {
     private final DmRepository dmRepository;
 
     // DM 전송

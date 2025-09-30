@@ -1,6 +1,6 @@
-package com.eat.today.sns.command.domain.repository.PhotoReviewComment;
+package com.eat.today.sns.command.domain.repository;
 
-import com.eat.today.sns.command.application.entity.photoReviewComment.PhotoReviewCommentEntity;
+import com.eat.today.sns.command.application.entity.PhotoReviewCommentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

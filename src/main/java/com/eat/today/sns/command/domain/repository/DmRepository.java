@@ -1,6 +1,6 @@
-package com.eat.today.sns.command.domain.repository.dm;
+package com.eat.today.sns.command.domain.repository;
 
-import com.eat.today.sns.command.application.entity.dm.DmEntity;
+import com.eat.today.sns.command.application.entity.DmEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DmRepository extends JpaRepository<DmEntity, Integer> {

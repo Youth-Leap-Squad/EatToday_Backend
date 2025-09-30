@@ -1,10 +1,7 @@
-package com.eat.today.sns.command.application.entity.follow;
+package com.eat.today.sns.command.application.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 @Data
 @Entity

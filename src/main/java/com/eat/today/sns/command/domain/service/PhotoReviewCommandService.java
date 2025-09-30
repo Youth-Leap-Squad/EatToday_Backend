@@ -2,8 +2,8 @@ package com.eat.today.sns.command.domain.service;
 
 import com.eat.today.sns.command.application.dto.photoReviewDTO.CreateRequest;
 import com.eat.today.sns.command.application.dto.photoReviewDTO.UpdateRequest;
-import com.eat.today.sns.command.application.entity.photoReview.PhotoReviewEntity;
-import com.eat.today.sns.command.domain.repository.photoReview.PhotoReviewRepository;
+import com.eat.today.sns.command.application.entity.PhotoReviewEntity;
+import com.eat.today.sns.command.domain.repository.PhotoReviewRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

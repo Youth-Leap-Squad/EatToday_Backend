@@ -1,4 +1,4 @@
-package com.eat.today.sns.command.application.entity.photoReviewComment;
+package com.eat.today.sns.command.application.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.eat.today.sns.command.application.controller.photoReviewComet;
+package com.eat.today.sns.command.application.controller;
 
 import com.eat.today.sns.command.domain.service.PhotoReviewCommentCommandService;
 import com.eat.today.sns.query.dto.photoReviewComment.PrcDTO;
